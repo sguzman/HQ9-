@@ -91,7 +91,7 @@ object Main {
     */
   def main(args: Array[String]) = {
     if (args.length < 1) {
-      println("usage: scala Main <file>")
+      output.println("usage: scala Main <file>")
       damnItAll()
     }
 
