@@ -1,15 +1,18 @@
 package org.github.sguzman.scala.lang.hq9plus
 
+import java.io.PrintStream
+
 /**
   * @author Salvador Guzman - sguzman
   * @group ScHQ9+
   * @version org.github.sguzman.scala.lang.hq9plus.impl
-  *
   * @note HQ9+ intepreter
-  *
   * @since 5/22/16 9:48 PM
   */
 object Main {
+  /** Added a customizable output object - defaults to System.out */
+  var output: PrintStream = System.out
+
   /**
     * Damn it all!
     */
@@ -19,7 +22,7 @@ object Main {
     * Experienced a fatal exception
     */
   def noooo(): Unit = {
-    println("No.")
+    output.println("No.")
     throw new HQ9PlusException
   }
 
