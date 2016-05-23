@@ -4,7 +4,7 @@ Very specific workflows.. Workflows that involve of "Hello World!". You
 know the kind.
 
 ## Description
-The intepreter is fully and proudly HQ9+ comptatible. That means it fully
+The interpreter is fully and proudly HQ9+ comptatible. That means it fully
 understands all four instructions in the language.
 It is written in Scala because why not.
 
@@ -14,6 +14,10 @@ So you want to know what the four instructions are? Fine... Here they are,
 - **Q**: Print the program's source code
 - **9**: Print the lyrics to "99 Bottles of Beer"
 - **+**: Increment the accumulator
+
+### Extras
+I added the file necessary to use `activator ui` for project management.
+Enjoy!
 
 
 #### Reference
