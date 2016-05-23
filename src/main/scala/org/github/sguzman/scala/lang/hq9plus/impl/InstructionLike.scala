@@ -15,15 +15,15 @@ package org.github.sguzman.scala.lang.hq9plus.impl
   *
   * @since 5/22/16 9:39 PM
   */
-trait InstructionLike {
+abstract class InstructionLike {
   /**
     * Return the expected character that the instruction expects
     * @return Char
     */
-  def getDirective: Char
+  abstract def getDirective: Char
 
   /**
     * Execute the logic of the instruction
     */
-  def execute(): Unit
+  abstract def execute(): Unit
 }
