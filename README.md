@@ -15,7 +15,7 @@ So you want to know what the four instructions are? Fine... Here they are,
 - **9**: Print the lyrics to "99 Bottles of Beer"
 - **+**: Increment the accumulator
 
-### Syntax Issues
+### Handling Syntax Issues
 Taking inspiration from the [RealMan's Compiler Collection](http://somewhere.fscked.org/proj/rmcc/),
 I decided to elegantly express any syntactical issues with the user's
 source code with "No." So, if you include any character other than 'H', 'h',
