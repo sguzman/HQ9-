@@ -84,6 +84,11 @@ object Main {
     */
   def incre(): Unit = counter += 1
 
+  /**
+    * Parse the source code
+    *
+    * @param code: String - source code as a string
+    */
   def parser(code: String): Unit = for (char <- program) char match {
     case 'H' | 'h' => hello()
     case 'Q' | 'q' => q()
