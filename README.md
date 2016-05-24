@@ -3,6 +3,8 @@ HQ9+ is a programming language. It is meant to expedite certain workflows.
 Very specific workflows.. Workflows that involve of "Hello World!". You
 know the kind.
 
+[![Build Status](https://api.travis-ci.org/sguzman/HQ9Plus.png?branch=master)](https://travis-ci.org/sguzman/HQ9Plus/)
+
 ## Description
 The interpreter is fully and proudly HQ9+ comptatible. That means it fully
 understands all four instructions in the language.
