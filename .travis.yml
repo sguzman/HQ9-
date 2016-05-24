@@ -1,0 +1,26 @@
+# My first Travis file :)
+
+os: linux
+language: scala
+compiler: sbt
+
+scala:
+   - 2.11.8
+
+branches:
+  only:
+    - master
+
+sudo: false
+
+notifications:
+  email:
+    recipients:
+      - guzmansalv@gmail.com
+
+cache:
+  directories:
+    - $HOME/.ivy2
+
+
+jdk: oraclejdk8
