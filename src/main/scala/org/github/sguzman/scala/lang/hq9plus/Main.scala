@@ -51,12 +51,12 @@ object Main {
   /**
     * Prints hello world
     */
-  def hello(): Unit = println("Hello, world!")
+  def hello(): Unit = output.println("Hello, world!")
 
   /**
     * Print entire program
     */
-  def q(): Unit = println(program.toString)
+  def q(): Unit = output.println(program.toString)
 
   /**
     * 99 bottles of beer on the wall
@@ -66,15 +66,15 @@ object Main {
   def nine(n: Int = 99): Unit = {
     for(num <- n to 1 by -1) num match {
       case 1 =>
-        println("1 bottle of beer on the wall")
-        println("1 bottle of beer")
-        println("Take one down and pass it around")
-        println("No bottles of beer on the wall")
+        output.println("1 bottle of beer on the wall")
+        output.println("1 bottle of beer")
+        output.println("Take one down and pass it around")
+        output.println("No bottles of beer on the wall")
       case _: Int if num > 0 =>
-        println(s"$num bottles of beer on the wall")
-        println(s"$num bottles of beer")
-        println("Take one down and pass it around")
-        println(s"${num - 1} bottle${if (num == 2) "" else "s"} of beer on the wall")
+        output.println(s"$num bottles of beer on the wall")
+        output.println(s"$num bottles of beer")
+        output.println("Take one down and pass it around")
+        output.println(s"${num - 1} bottle${if (num == 2) "" else "s"} of beer on the wall")
       case _ => noooo()
     }
   }
