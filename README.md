@@ -1,7 +1,9 @@
-# HQ9+
+# ScHQ9+
 HQ9+ is a programming language. It is meant to expedite certain workflows.
 Very specific workflows.. Workflows that involve of "Hello World!". You
 know the kind.
+
+ScHQ9+ is the name of my implementation.
 
 [![Build Status](https://api.travis-ci.org/sguzman/HQ9Plus.png?branch=master)](https://travis-ci.org/sguzman/HQ9Plus/)
 
@@ -28,7 +30,6 @@ you get it working!
 ### Extras
 I added the file necessary to use `activator ui` for project management.
 Enjoy!
-
 
 #### Reference
 * [HQ9+](https://esolangs.org/wiki/HQ9+) - Esolangs
