@@ -19,6 +19,14 @@ object Main {
   def damnItAll() = System.exit(1)
 
   /**
+    * Die
+    */
+  def die(): Unit = {
+    output.println("No.")
+    damnItAll()
+  }
+
+  /**
     * Experienced a fatal exception
     */
   def noooo(): Unit = {
@@ -109,7 +117,7 @@ object Main {
       /** Parse the program */
       parser(program)
     } catch {
-      case _: HQ9PlusException => damnItAll()
+      case _: HQ9PlusException => die()
     }
   }
 }
