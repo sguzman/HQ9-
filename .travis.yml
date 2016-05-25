@@ -22,5 +22,4 @@ cache:
   directories:
     - $HOME/.ivy2
 
-
 jdk: oraclejdk8
