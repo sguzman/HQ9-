@@ -23,8 +23,11 @@ libraryDependencies ++= Seq(
   /** Compile dependencies */
   "org.apache.commons" % "commons-lang3" % "3.4",
   /** Test dependencies */
-  "org.scalatest" % "scalatest_2.12.0-M4" % "3.0.0-M16-SNAP4" % "test"
+  "org.scalatest" % "scalatest_2.11" % "2.2.6"
 )
 
 /** Make sure to fork on run */
 fork in run := true
+
+/** Make sure to fork on test */
+fork in test := true
