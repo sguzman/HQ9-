@@ -20,7 +20,10 @@ resolvers ++= Seq(
 
 /** Source Dependencies */
 libraryDependencies ++= Seq(
-  "org.apache.commons" % "commons-lang3" % "3.4"
+  /** Compile dependencies */
+  "org.apache.commons" % "commons-lang3" % "3.4",
+  /** Test dependencies */
+  "org.scalatest" % "scalatest_2.12.0-M4" % "3.0.0-M16-SNAP4" % "test"
 )
 
 /** Make sure to fork on run */
