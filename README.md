@@ -5,7 +5,7 @@ know the kind.
 
 ScHQ9+ is the name of my implementation.
 
-[![Build Status](https://api.travis-ci.org/sguzman/HQ9Plus.png?branch=master)](https://travis-ci.org/sguzman/HQ9Plus/)
+[![Build Status](https://travis-ci.org/sguzman/ScHQ9Plus.svg?branch=master)](https://travis-ci.org/sguzman/HQ9Plus/)
 [![Stories in Ready](https://badge.waffle.io/sguzman/ScHQ9Plus.svg?label=ready&title=Ready)](http://waffle.io/sguzman/ScHQ9Plus)
 
 ## Description
