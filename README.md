@@ -6,6 +6,7 @@ know the kind.
 ScHQ9+ is the name of my implementation.
 
 [![Build Status](https://api.travis-ci.org/sguzman/HQ9Plus.png?branch=master)](https://travis-ci.org/sguzman/HQ9Plus/)
+[![Stories in Ready](https://badge.waffle.io/sguzman/ScHQ9Plus.svg?label=ready&title=Ready)](http://waffle.io/sguzman/ScHQ9Plus)
 
 ## Description
 The interpreter is fully and proudly HQ9+ comptatible. That means it fully
